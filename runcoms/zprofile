@@ -17,8 +17,8 @@ fi
 # Editors
 #
 
-export EDITOR='emacs --alternate-editor="" -ct'
-export VISUAL='view'
+export VISUAL='nvim'
+export EDITOR='nvim'
 export PAGER='less'
 
 #
