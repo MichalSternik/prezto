@@ -3,7 +3,13 @@
 # aliases.
 #
 # Authors: Sorin Ionescu <sorin.ionescu@gmail.com>
-#
+
+
+# Here was a bunch of exports 
+# changing #PATH
+# to set up rbenv. 
+# It was moved to zshenv, 
+# because emacs complained
 
 
 # Return if requirements are not found.

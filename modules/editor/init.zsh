@@ -229,7 +229,7 @@ for key in "$key_info[Escape]"{F,f} "${(s: :)key_info[ControlRight]}"
   bindkey -M emacs "$key" emacs-forward-word
 
 # Kill to the beginning of the line.
-for key in "$key_info[Escape]"{K,k}
+for key in "$key_info[Escape]"{K,k} 
   bindkey -M emacs "$key" backward-kill-line
 
 # Redo.
